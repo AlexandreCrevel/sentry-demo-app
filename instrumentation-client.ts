@@ -13,6 +13,12 @@ Sentry.init({
       maskAllText: false,
       blockAllMedia: false,
     }),
+    Sentry.feedbackIntegration({
+      colorScheme: 'system',
+      isEmailRequired: true,
+      enableScreenshot: true,
+      autoInject: true
+    })
   ],
 
   // Define how likely traces are sampled. Adjust this value in production, or use tracesSampler for greater control.

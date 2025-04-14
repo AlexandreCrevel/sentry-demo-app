@@ -72,6 +72,7 @@ export default function ClientErrorsPage() {
         >
           Add Breadcrumb
         </button>
+
       </div>
 
       {errorMessage && (
